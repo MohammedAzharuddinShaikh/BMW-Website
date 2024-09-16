@@ -1,0 +1,536 @@
+*{
+    box-sizing: border-box;
+   
+    margin: 0px;
+    
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       
+    
+
+}
+nav{
+    display: flex;
+    align-items:center;
+    position: relative;
+    left: 7%;
+    justify-content: space-evenly;
+width: 90%;
+height: 15vh;
+position: relative;
+bottom: 0px;
+left: 50px;
+z-index: 1;
+color: white;
+}
+#mod{
+    font-family: sans-serif;
+padding: 0px 12px;
+width: 6.2vw ;
+position: relative;
+right: 30px;
+}
+#ele{
+font-family: sans-serif;
+padding: 0px 12px;
+width:6vw ;
+z-index: 2;
+position: relative;
+right: 70px;
+}
+#con{
+font-family: sans-serif;
+padding: 0px 12px;
+width:9vw ;
+position: relative;
+right: 110px;
+}
+#vos{
+font-family: sans-serif;
+padding: 0px 12px;
+width:12.2vw ;
+position: relative;
+right: 150px;
+}
+#mbmw{
+font-family: sans-serif;
+padding: 0px 12px;
+width: 8.4vw;
+position: relative;
+right: 190px;
+}
+#insidenav{
+width: 100px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+position: relative;
+right: 30px;
+
+}
+hr{
+width: 85%;
+border: 1px solid white;
+position: relative;
+left: 110px;
+bottom: 6px;
+z-index: 10;
+color: white;
+}
+#sheer{
+font-family: Arial, Helvetica, sans-serif;
+height: 31px;
+width: 190px;
+position: relative;
+left: 110px;
+top: 10px;
+z-index: 4;
+color: white;
+font-size: 17px;
+}
+#Pleasure{
+font-family: Arial, Helvetica, sans-serif;
+}
+#thefirstfullyelectric{
+font-family:Arial, Helvetica, sans-serif;
+position: absolute;
+top: 300px;
+left: 120px;
+z-index: 5;
+color: white;
+}
+#bmwix1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+position: absolute;
+top: 320px;
+left: 120px;
+z-index: 6;
+color: white;
+}
+#chargeraheadxceed{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+position: absolute;
+top: 380px;
+left: 120px;
+z-index: 7;
+color: white;
+}
+#discovernow{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+position: absolute;
+top: 430px;
+left: 120px;
+padding: 15px;
+background-color: blue;
+color: white;
+border-radius: 7px; 
+z-index: 8;       
+}
+#bkvideo1{
+position: relative;
+bottom: 500px;
+
+}
+#THENEW{
+font-family:Arial, Helvetica, sans-serif;
+position: absolute;
+top: 1100px;
+left: 120px;
+color: white; 
+z-index: 10;
+}
+#bmwx5{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+position: absolute;
+top: 1120px;
+left: 120px;
+color: white;
+z-index: 11;
+}
+#crafted{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+position: absolute;
+top: 1190px;
+left: 120px;
+color: white;
+z-index: 12;
+}
+#configure{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+position: absolute;
+top: 1240px;
+left: 120px;
+padding: 15px;
+background-color: blue;
+color: white;
+border-radius: 7px;
+z-index: 13; 
+}
+#know{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+position: absolute;
+top: 1240px;
+left: 300px;
+padding: 13px;
+border: 2px solid white;
+color: white;
+border-radius: 7px; 
+z-index: 14;
+}
+#bmwx5video{
+position: relative;
+bottom: 1050px;
+}
+#shoppingtools{
+font-family:Arial, Helvetica, sans-serif;
+position: absolute;
+top: 1340px;
+left: 43%;
+color: grey; 
+}
+#findyourbmw{
+font-size: 50PX;
+font-family:Arial, Helvetica, sans-serif;
+position: absolute;
+top: 1380px;
+left: 33%;
+color: black;
+}
+#imgs{
+display: flex;
+width: 20px;
+justify-content: space-between;
+align-items: center;
+position: absolute;
+top: 1440px;
+right: 1210px; 
+}
+#fbb{
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+width: 74%;
+justify-content: space-between;
+align-items: center;
+position: absolute;
+top: 1600px;
+right: 168px; 
+}
+#searchnow{
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: absolute;
+top: 1670px;
+right: 970px; 
+padding: 15px;
+border: 2px solid black;
+border-radius: 7px;
+cursor: pointer;
+}
+#searchnow:hover{
+    background-color: rgb(223, 222, 222);
+}
+
+#requestatestdrive{
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: absolute;
+top: 1670px;
+right: 535px; 
+padding: 15px;
+border: 2px solid black;
+border-radius: 7px;
+cursor: pointer;
+}
+#requestatestdrive:hover{
+    background-color: rgb(223, 222, 222);
+}
+#configureprice{
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: absolute;
+top: 1670px;
+right: 148px; 
+padding: 15px;
+border: 2px solid black;
+border-radius: 7px;
+cursor: pointer;
+}
+#configureprice:hover{
+    background-color: rgb(223, 222, 222);
+}
+#the7{
+position: absolute;
+top: 1800px;
+}
+#thisis{
+font-family: sans-serif;
+font-size: 55px;
+position: absolute;
+top: 1885px;
+left: 105px;
+color: white;
+z-index: 20;
+}
+#forwardism{
+font-family: sans-serif;
+font-size: 55px;
+position: absolute;
+top: 1950px;
+left: 105px;
+color: white;
+}
+#knowmore{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+position: absolute;
+top: 2040px;
+left: 105px;
+padding: 20px;
+border: 2px solid white;
+color: white;
+border-radius: 7px; 
+z-index: 14;
+}
+#theix{
+width: 41.4%;
+position: absolute;
+top: 2250px;
+left: 96px; 
+
+}
+#bmwelectrified{
+font-size: 18px;
+position: absolute;
+top: 2320px;
+left: 640px;
+color: grey; 
+}
+#thejoyof{
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 50px;
+position: absolute;
+top: 2350px;
+left: 640px;
+color:black; 
+}
+#electricdriving{
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 50px;
+position: absolute;
+top: 2410px;
+left: 640px;
+color:black;
+}
+#electric{
+width: 500px;
+font-size: 18px;
+position: absolute;
+top: 2490px;
+left: 640px;
+color: grey;
+}
+#knowmore2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+position: absolute;
+top: 2570px;
+left: 640px;
+padding: 20px;
+border: 2px solid black;
+color: black;
+border-radius: 7px; 
+z-index: 14;
+}
+#multiplecars{
+width: 41.4%;
+position: absolute;
+top: 2685px;
+left: 96px; 
+}
+#secheight{
+height: 400px;
+}
+#financialservices{
+font-size: 18px;
+position: absolute;
+top: 2730px;
+left: 640px;
+color: grey; 
+}
+#specialoffers{
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 50px;
+position: absolute;
+top: 2760px;
+left: 640px;
+color:black;
+}
+#bmwrange{
+width: 520px;
+font-size: 18px;
+position: absolute;
+top: 2850px;
+left: 640px;
+color: grey;
+}
+#knowmore3{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+position: absolute;
+top: 2935px;
+left: 640px;
+padding: 20px;
+border: 2px solid black;
+color: black;
+border-radius: 7px; 
+}
+#hr2{
+width: 100%;
+border: 0.5px solid rgb(234, 234, 234);
+position: absolute;
+/* left: 110px; */
+top:3030px;
+z-index: 10;
+color: white;
+z-index: 30;
+}
+#yourbmw{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 12px;
+position: absolute;
+top: 40px;
+left: 100px;
+color: grey; 
+}
+#allmodels{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 15px;
+position: absolute;
+top: 40px;
+left: 240px;
+color: black; 
+}
+#sec1{
+height: 450px;
+background-color: rgb(240, 239, 239);
+}
+#contact1{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 15px;
+position: absolute;
+top: 3200px;
+left: 100px;
+color: grey; 
+}
+#abtcontact{
+width: 150px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 15px;
+position: absolute;
+top: 3250px;
+left: 100px;
+color: black; 
+display: table;
+}
+#quicklines{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 15px;
+position: absolute;
+top: 3200px;
+left: 400px;
+color: grey;
+}
+#abtquicklines{
+width: 225px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 15px;
+position: absolute;
+top: 3250px;
+left: 400px;
+color: black; 
+display: table;
+}
+#experiencebmw{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 15px;
+position: absolute;
+top: 3200px;
+left: 700px;
+color: grey;
+}
+#abtexperiencebmw{
+width: 160px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 15px;
+position: absolute;
+top: 3250px;
+left: 700px;
+color: black; 
+display: table;
+}
+#legal{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 15px;
+position: absolute;
+top: 3200px;
+left: 1000px;
+color: grey;
+}
+#abtlegal{
+width: 180px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 15px;
+position: absolute;
+top: 3250px;
+left: 1000px;
+color: black; 
+display: table;
+}
+#sociallogos{
+position: absolute;
+top: 3500px;
+left: 100px;
+display: table;
+color: black; 
+justify-content: space-evenly;
+/* align-items: center; */
+}
+#sec2{
+height: 80px;
+}
+#copyright{
+width: 150px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 15px;
+position: absolute;
+top: 3600px;
+left: 100px;
+color: grey;
+}
+#footer{
+width: 450px;
+font-size: 15px;
+position: absolute;
+top: 3570px;
+left: 770px;
+display: flex;
+color: black; 
+justify-content:center;
+}
